@@ -40,6 +40,7 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
+    '@nuxtjs/axios',
   ],
 
   /*
@@ -51,5 +52,9 @@ export default {
     */
     extend(config, ctx) {
     }
+  },
+
+  axios: {
+    baseURL: 'https://cart.app/api'
   }
 }
