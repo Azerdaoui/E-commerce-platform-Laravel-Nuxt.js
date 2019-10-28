@@ -55,6 +55,6 @@ export default {
   },
 
   axios: {
-    baseURL: 'https://cart.app/api'
+    baseURL: 'http://cart.test/api'
   }
 }

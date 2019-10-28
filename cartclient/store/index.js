@@ -2,6 +2,12 @@ export const state = () => ({
   categories: []
 });
 
+export const getters = {
+  categories(state){
+    return state.categories;
+  }
+}
+
 export const mutations = {
   SET_CATEGORIES(state, categories){
     state.categories = categories;
