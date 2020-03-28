@@ -19,6 +19,7 @@
         "sass-loader": "^7.1.0"
     },
     "dependencies": {
+        "minimist": "^1.2.5",
         "serialize-javascript": "^3.0.0"
     }
 }
