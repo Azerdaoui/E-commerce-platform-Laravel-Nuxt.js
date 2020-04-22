@@ -2,6 +2,7 @@
 
 use App\Models\Product;
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\DB;
 
 class ProductTableSeeder extends Seeder
 {
@@ -12,9 +13,10 @@ class ProductTableSeeder extends Seeder
      */
     public function run()
     {
-        Product::truncate();
+        // DB::table('category_product')->truncate();
+        // Product::truncate();
 
-        Product::create([
+        $product = Product::create([
             'name' => 'Nike Air max',
             'slug' => 'nike-air-max',
             'price' => 230,
