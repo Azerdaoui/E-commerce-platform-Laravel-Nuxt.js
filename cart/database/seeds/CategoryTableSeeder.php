@@ -22,7 +22,7 @@ class CategoryTableSeeder extends Seeder
             'name' => 'Shoes',
             'slug' => 'shoes',
             'order' => 1,
-            'parent_id' => 2,
+            // 'parent_id' => '',
         ]);
 
         // $category->categories()->save(Product::first());
@@ -31,7 +31,7 @@ class CategoryTableSeeder extends Seeder
             'name' => 'sunglasses',
             'slug' => 'sunglasses',
             'order' => 2,
-            'parent_id' => 2,
+            // 'parent_id' => '',
         ]);
     }
 }
